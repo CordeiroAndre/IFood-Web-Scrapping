@@ -1,0 +1,515 @@
+Restaurant: Confraria do Hambúrguer
+Nome do item:Combo Casal
+Descrição do prato:
+Preço despois do desconto: R$ 89,95R$ 128,50
+Preço antes do desconto: R$ 128,50
+Serve 2 pessoas
+Preço padrão: R$ 89,95R$ 128,50
+---------------------------------------------
+Nome do item:Combo de Burgão
+Descrição do prato:
+Preço despois do desconto: R$ 49,32R$ 54,80
+Preço antes do desconto: R$ 54,80
+Serve 1 pessoa
+Preço padrão: R$ 49,32R$ 54,80
+---------------------------------------------
+Nome do item:Combo de Burguinho
+Descrição do prato:
+Preço despois do desconto: R$ 43,02R$ 47,80
+Preço antes do desconto: R$ 47,80
+Serve 1 pessoa
+Preço padrão: R$ 43,02R$ 47,80
+---------------------------------------------
+Nome do item:Tanso
+Descrição do prato:
+Preço despois do desconto: R$ 36,90R$ 38,90
+Preço antes do desconto: R$ 38,90
+Serve 1 pessoa
+Preço padrão: R$ 36,90R$ 38,90
+---------------------------------------------
+Nome do item:Atentado
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 33,90
+---------------------------------------------
+Nome do item:Bobicinha
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 30,90
+---------------------------------------------
+Nome do item:Bobiça
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 33,90
+---------------------------------------------
+Nome do item:Tanso
+Descrição do prato:
+Preço despois do desconto: R$ 36,90R$ 38,90
+Preço antes do desconto: R$ 38,90
+Serve 1 pessoa
+Preço padrão: R$ 36,90R$ 38,90
+---------------------------------------------
+Nome do item:Combo Casal
+Descrição do prato:
+Preço despois do desconto: R$ 89,95R$ 128,50
+Preço antes do desconto: R$ 128,50
+Serve 2 pessoas
+Preço padrão: R$ 89,95R$ 128,50
+---------------------------------------------
+Nome do item:Combo de Burguinho
+Descrição do prato:
+Preço despois do desconto: R$ 43,02R$ 47,80
+Preço antes do desconto: R$ 47,80
+Serve 1 pessoa
+Preço padrão: R$ 43,02R$ 47,80
+---------------------------------------------
+Nome do item:Combo de Burgão
+Descrição do prato:
+Preço despois do desconto: R$ 49,32R$ 54,80
+Preço antes do desconto: R$ 54,80
+Serve 1 pessoa
+Preço padrão: R$ 49,32R$ 54,80
+---------------------------------------------
+Nome do item:Batata Frita
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 9,90
+---------------------------------------------
+Nome do item:Anéis de Cebola
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 14,90
+---------------------------------------------
+Nome do item:Smash Bacon
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 26,90
+---------------------------------------------
+Nome do item:Smash Bacon 2.0
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 34,90
+---------------------------------------------
+Nome do item:Smash Burger
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 24,90
+---------------------------------------------
+Nome do item:Smash Salad
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 25,90
+---------------------------------------------
+Nome do item:Coca-Cola Original 350ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 7,50
+---------------------------------------------
+Nome do item:Coca-Cola Original 600ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 10,90
+---------------------------------------------
+Nome do item:Kuat Guaraná 600ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 10,90
+---------------------------------------------
+Nome do item:Refrigerante Guaraná Fanta 350ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 7,50
+---------------------------------------------
+Nome do item:Água 500ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 4,70
+---------------------------------------------
+Nome do item:Coca-Cola sem Açúcar 350ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 7,50
+---------------------------------------------
+Nome do item:Coca-Cola sem Açúcar 600ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 10,90
+---------------------------------------------
+
+Restaurant: Hype Hamburgueria Smash Burger
+Nome do item:Smash Classic
+Descrição do prato:
+Preço despois do desconto: R$ 24,99R$ 34,90
+Preço antes do desconto: R$ 34,90
+
+Preço padrão: R$ 24,99R$ 34,90
+---------------------------------------------
+Nome do item:Smash Bacon
+Descrição do prato:
+Preço despois do desconto: R$ 24,99R$ 34,90
+Preço antes do desconto: R$ 34,90
+
+Preço padrão: R$ 24,99R$ 34,90
+---------------------------------------------
+Nome do item:Smash 3
+Descrição do prato:
+Preço despois do desconto: R$ 39,90R$ 53,90
+Preço antes do desconto: R$ 53,90
+Serve 1 pessoa
+Preço padrão: R$ 39,90R$ 53,90
+---------------------------------------------
+Nome do item:Smash Kids
+Descrição do prato:
+Preço despois do desconto: R$ 24,99R$ 31,90
+Preço antes do desconto: R$ 31,90
+
+Preço padrão: R$ 24,99R$ 31,90
+---------------------------------------------
+Nome do item:Smash Bacon
+Descrição do prato:
+Preço despois do desconto: R$ 24,99R$ 34,90
+Preço antes do desconto: R$ 34,90
+
+Preço padrão: R$ 24,99R$ 34,90
+---------------------------------------------
+Nome do item:Smash 3
+Descrição do prato:
+Preço despois do desconto: R$ 39,90R$ 53,90
+Preço antes do desconto: R$ 53,90
+Serve 1 pessoa
+Preço padrão: R$ 39,90R$ 53,90
+---------------------------------------------
+Nome do item:Smash Bacon
+Descrição do prato:
+Preço despois do desconto: R$ 24,99R$ 31,90
+Preço antes do desconto: R$ 31,90
+
+Preço padrão: R$ 24,99R$ 31,90
+---------------------------------------------
+Nome do item:Smash Classic
+Descrição do prato:
+Preço despois do desconto: R$ 24,99R$ 34,90
+Preço antes do desconto: R$ 34,90
+
+Preço padrão: R$ 24,99R$ 34,90
+---------------------------------------------
+Nome do item:Smash Kids
+Descrição do prato:
+Preço despois do desconto: R$ 24,99R$ 31,90
+Preço antes do desconto: R$ 31,90
+
+Preço padrão: R$ 24,99R$ 31,90
+---------------------------------------------
+Nome do item:Smash Bacon 5 - "O brabo"
+Descrição do prato:
+Preço despois do desconto: R$ 56,90R$ 66,90
+Preço antes do desconto: R$ 66,90
+Serve 1 pessoa
+Preço padrão: R$ 56,90R$ 66,90
+---------------------------------------------
+Nome do item:Bacon 180g
+Descrição do prato:
+Preço despois do desconto: R$ 38,90R$ 47,90
+Preço antes do desconto: R$ 47,90
+Serve 1 pessoa
+Preço padrão: R$ 38,90R$ 47,90
+---------------------------------------------
+Nome do item:Classic 180g
+Descrição do prato:
+Preço despois do desconto: R$ 38,90R$ 47,90
+Preço antes do desconto: R$ 47,90
+Serve 1 pessoa
+Preço padrão: R$ 38,90R$ 47,90
+---------------------------------------------
+Nome do item:Combo Bacon 180g + fritas + bebida
+Descrição do prato:
+Preço despois do desconto: R$ 49,90R$ 57,80
+Preço antes do desconto: R$ 57,80
+Serve 1 pessoa
+Preço padrão: R$ 49,90R$ 57,80
+---------------------------------------------
+Nome do item:Combo Classic 180g + fritas + bebida
+Descrição do prato:
+Preço despois do desconto: R$ 49,90R$ 57,80
+Preço antes do desconto: R$ 57,80
+Serve 1 pessoa
+Preço padrão: R$ 49,90R$ 57,80
+---------------------------------------------
+Nome do item:Anel de cebola (Porção 12 unidades)
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 27,00
+---------------------------------------------
+Nome do item:Batata frita 300g
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 27,90
+---------------------------------------------
+Nome do item:Combo com 3 mousses - Monte o seu
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: A partir de R$ 35,60
+---------------------------------------------
+Nome do item:Milk Shake
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: A partir de R$ 22,90
+---------------------------------------------
+Nome do item:Trento chocolate
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 5,00
+---------------------------------------------
+Nome do item:Coca-Cola Original 350ml
+Descrição do prato:
+Preço despois do desconto: R$ 8,90R$ 9,90
+Preço antes do desconto: R$ 9,90
+
+Preço padrão: R$ 8,90R$ 9,90
+---------------------------------------------
+Nome do item:Coca-Cola sem Açúcar 350ml
+Descrição do prato:
+Preço despois do desconto: R$ 8,90R$ 9,90
+Preço antes do desconto: R$ 9,90
+
+Preço padrão: R$ 8,90R$ 9,90
+---------------------------------------------
+Nome do item:Coca-Cola Original 2l
+Descrição do prato:
+Preço despois do desconto: R$ 16,90R$ 17,90
+Preço antes do desconto: R$ 17,90
+
+Preço padrão: R$ 16,90R$ 17,90
+---------------------------------------------
+Nome do item:Coca-Cola sem Açúcar 2l
+Descrição do prato:
+Preço despois do desconto: R$ 16,90R$ 17,90
+Preço antes do desconto: R$ 17,90
+
+Preço padrão: R$ 16,90R$ 17,90
+---------------------------------------------
+Nome do item:Refrigerante Guaraná Antarctica Lata 350ml
+Descrição do prato:
+Preço despois do desconto: R$ 8,90R$ 9,90
+Preço antes do desconto: R$ 9,90
+
+Preço padrão: R$ 8,90R$ 9,90
+---------------------------------------------
+Nome do item:Refrigerante Guaraná sem Açúcar Antarctica 350ml
+Descrição do prato:
+Preço despois do desconto: R$ 8,90R$ 9,90
+Preço antes do desconto: R$ 9,90
+
+Preço padrão: R$ 8,90R$ 9,90
+---------------------------------------------
+Nome do item:Refrigerante Guaraná Antarctica 1,5 l
+Descrição do prato:
+Preço despois do desconto: R$ 15,90R$ 16,90
+Preço antes do desconto: R$ 16,90
+
+Preço padrão: R$ 15,90R$ 16,90
+---------------------------------------------
+Nome do item:Água Mineral sem Gás Imperatriz Garrafa 500ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 6,00
+---------------------------------------------
+Nome do item:Água Mineral Imperatriz com Gás 500ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 6,00
+---------------------------------------------
+Nome do item:Antárctica Tônica 350ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 8,90
+---------------------------------------------
+Nome do item:Água Tônica Antarctica Zero Lata 350ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 8,90
+---------------------------------------------
+Nome do item:Energético Red Bull Embalagem 250ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 15,00
+---------------------------------------------
+Nome do item:Energético Red Bull Tropical 250 Ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 15,00
+---------------------------------------------
+Nome do item:Schweppes Citrus 350ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 8,90
+---------------------------------------------
+Nome do item:Suco natural 400ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 12,00
+---------------------------------------------
+Nome do item:Cerveja Budweiser Long Neck 330ml
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 13,90
+---------------------------------------------
+Nome do item:Corona
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 13,90
+---------------------------------------------
+Nome do item:Heineken
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 13,90
+---------------------------------------------
+Nome do item:Combo Bacon 180g + fritas + Coca-Cola 350ml
+Descrição do prato:
+Preço despois do desconto: R$ 49,90R$ 57,80
+Preço antes do desconto: R$ 57,80
+Serve 1 pessoa
+Preço padrão: R$ 49,90R$ 57,80
+---------------------------------------------
+Nome do item:Combo Classic 180g + fritas + Coca-Cola 350ml
+Descrição do prato:
+Preço despois do desconto: R$ 49,90R$ 57,80
+Preço antes do desconto: R$ 57,80
+Serve 1 pessoa
+Preço padrão: R$ 49,90R$ 57,80
+---------------------------------------------
+Nome do item:Combo Cheese Burger 180g + fritas + Coca-Cola 350ml
+Descrição do prato:
+Preço despois do desconto: R$ 47,90R$ 57,80
+Preço antes do desconto: R$ 57,80
+Serve 1 pessoa
+Preço padrão: R$ 47,90R$ 57,80
+---------------------------------------------
+Nome do item:Smash Bacon
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 24,99
+---------------------------------------------
+Nome do item:Smash Classic
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 24,99
+---------------------------------------------
+Nome do item:Smash Kids
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+
+Preço padrão: R$ 24,99
+---------------------------------------------
+Nome do item:Smash 3
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 39,90
+---------------------------------------------
+Nome do item:Smash Bacon 5 - "O brabo"
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 56,90
+---------------------------------------------
+Nome do item:Bacon 180g
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 38,90
+---------------------------------------------
+Nome do item:Classic 180g
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 38,90
+---------------------------------------------
+Nome do item:Combo Bacon 180g + fritas + bebida
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 49,90
+---------------------------------------------
+Nome do item:Combo Classic 180g + fritas + bebida
+Descrição do prato:
+Preço despois do desconto: 
+Preço antes do desconto: 
+Serve 1 pessoa
+Preço padrão: R$ 49,90
+---------------------------------------------
+
