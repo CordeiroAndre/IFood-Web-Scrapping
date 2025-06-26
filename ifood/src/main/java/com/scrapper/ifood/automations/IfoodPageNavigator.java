@@ -1,10 +1,15 @@
 package com.scrapper.ifood.automations;
 
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.sql.Driver;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +17,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
+import com.scrapper.ifood.models.Food;
 import com.scrapper.ifood.models.Restaurant;
 
 public class IfoodPageNavigator {
@@ -78,7 +84,6 @@ public class IfoodPageNavigator {
 
     public IfoodPageNavigator ScrapAllRestaurants(List<Restaurant> restaurants){
         
-        List<List<Restaurant>> listaDeLista;
         WebElement inRestaurantWrapper = driver.findElement(By.className("merchant-list-v2__wrapper"));
         List<WebElement> inRestaurants = inRestaurantWrapper.findElements(By.className("merchant-list-v2__item-wrapper"));
         
@@ -96,6 +101,55 @@ public class IfoodPageNavigator {
 
     public void Quit(){
         driver.quit();
-        System.out.println("hello world!");
+    }
+
+    public List <Food> getFoodsFromPage(Restaurant restaurant) throws IOException, InterruptedException{
+        driver.get("https://ifood.com.br"+restaurant.getLink());
+        Thread.sleep(6000);
+        Document ifoodPage = Jsoup.parse(driver.findElement(By.className("scroll-smooth")).getDomProperty("innerHTML"));
+        
+
+        Elements restaurantElements = ifoodPage.select(".dish-card-wrapper");
+        
+        List <Food> foods = new ArrayList<>();
+        restaurantElements.forEach(element->{
+            String name = element.select("h3.dish-card__description").text();
+            String dishDescription = element.select("span.dish-span.dish-card__details").text();
+            String priceDiscount = element.select("span.dish-card__price--discount").text();
+            String price = element.select("span.dish-card__price").text();
+            String HowManyPeopleServes = element.select("span.dish-info-serves__title").text();
+            System.out.println(name);
+            Food food = new Food(restaurant, name, dishDescription, formatCurrency(price),formatCurrency(price), extractNumber(HowManyPeopleServes));
+            foods.add(food);
+        });
+
+        return foods;
+    }
+
+    private BigDecimal formatCurrency(String original, String remove){
+        String result = original.replace(remove, "");
+        return(formatCurrency(result));
+    }
+
+    
+    private BigDecimal formatCurrency(String original){
+        
+        if(original.length()>7){
+            original = original.substring(0, 8);
+        }
+        String normalizedPrice = original.replace("R$", "").trim().replace(",", ".");
+        System.out.println(normalizedPrice);
+        BigDecimal fixedPrice = new BigDecimal(normalizedPrice);
+        return fixedPrice;
+        
+    }
+
+    private int extractNumber(String text){
+        if(!text.isBlank() || !text.isEmpty()){
+            String digits = text.replaceAll("\\D+", ""); // \\D+ matches non-digits
+            System.out.println(digits);
+            return Integer.parseInt(digits);
+        }
+        return -1;
     }
 }
