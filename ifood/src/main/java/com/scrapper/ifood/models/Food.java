@@ -1,7 +1,5 @@
 package com.scrapper.ifood.models;
 
-import java.math.BigDecimal;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -21,11 +19,11 @@ public class Food {
     
     protected String name; 
     protected String description;
-    protected BigDecimal discountPrice;
-    protected BigDecimal originalPrice;
-    protected int portionSize;
+    protected String discountPrice;
+    protected String originalPrice;
+    protected String portionSize;
   
-    public Food(Restaurant restaurant, String name, String description, BigDecimal discountPrice, BigDecimal originalPrice, int portionSize) {
+    public Food(Restaurant restaurant, String name, String description, String discountPrice, String originalPrice, String portionSize) {
         this.restaurant = restaurant;
         this.name = name;
         this.description = description;
@@ -33,9 +31,5 @@ public class Food {
         this.originalPrice = originalPrice;
         this.portionSize = portionSize;
     }
-
-
-
-
 
 }

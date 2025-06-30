@@ -1,15 +1,10 @@
 package com.scrapper.ifood;
 
-import java.io.IOException;
 import java.util.ArrayList;
-
 import java.util.List;
-
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-
 import com.scrapper.ifood.automations.IfoodPageNavigator;
 import com.scrapper.ifood.models.Food;
 import com.scrapper.ifood.models.Restaurant;
