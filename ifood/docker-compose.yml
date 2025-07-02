@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: ifood_postgres
+    environment:
+      POSTGRES_DB: ifood_db
+      POSTGRES_USER: ifood_user
+      POSTGRES_PASSWORD: ifood_pass
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - ifood-network
+
+  app:
+    build:
+      context: ./ifood
+      dockerfile: Dockerfile
+    container_name: ifood_app
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/ifood_db
+      SPRING_DATASOURCE_USERNAME: ifood_user
+      SPRING_DATASOURCE_PASSWORD: ifood_pass
+    depends_on:
+      - db
+    networks:
+      - ifood-network
+
+volumes:
+  pgdata:
+
+networks:
+  ifood-network:

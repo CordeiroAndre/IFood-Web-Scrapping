@@ -30,6 +30,7 @@ public class IfoodApplication {
         RestaurantRepository restaurantRepository = context.getBean(RestaurantRepository.class);
         FoodRespository foodRespository = context.getBean(FoodRespository.class);
 
+        restaurants = restaurantRepository.selectAllUnScrappedRestaurants();
         restaurants.forEach(restaurant->{
             try {
                 restaurantRepository.save(restaurant);

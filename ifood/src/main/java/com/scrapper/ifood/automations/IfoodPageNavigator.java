@@ -114,7 +114,6 @@ public class IfoodPageNavigator {
             String priceDiscount = element.select("span.dish-card__price--discount").text();
             String price = element.select("span.dish-card__price").text();
             String HowManyPeopleServes = element.select("span.dish-info-serves__title").text();
-            System.out.println(name);
             Food food = new Food(restaurant, name, dishDescription, priceDiscount,price, HowManyPeopleServes);
             foods.add(food);
         });
