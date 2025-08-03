@@ -2,18 +2,27 @@
 ---- 
 
 ### Introdução
-_Estudando SQL, análise de dados, ou qualquer outro tema e quer desenvolver um projeto com **dados reais**?_
+Este projeto Java foi desenvolvido para realizar o web scraping de cardápios de restaurantes do iFood. Ele permite a coleta de dados reais de menus para diversas finalidades, como estudos de SQL, análise de dados e desenvolvimento de projetos baseados em dados reais.
 
-Esse projeto Java faz o scrapping dos cardápios de restaurantes, a partir da definição de uma determinada localização e salva os dados coletados em um Banco PostgreSQL. 
+O sistema é capaz de extrair informações de cardápios a partir da definição de uma determinada localização e de um tipo de comida específico. Todos os dados coletados são salvos em um banco de dados PostgreSQL, fornecendo uma base robusta para suas análises e aplicações.
 
 ### Requisitos 
- 1. Ter o **_Java 21_** instalado na máquina.
- 2. Ter o **_PostgreSQL_** instalado na máquina.
+
+Para executar este projeto em sua máquina, você precisará ter os seguintes softwares instalados:
+• **Java 21**
+• **PostgreSQL**
+
 
 ### Como usar ?
- 1. Configure o seu arquivo **application.properties** com o seu usuário e senha do banco de dados que deseja salvar os dados. 
- 2. Dentro do arquivo **IfoodApplication.java** altere o texto de **"hamburguer"** (na linha 25, parâmetro do comando _OpenIfoodPage()_) para qualquer outro tipo de comida que deseje explorar.
- 3. Dentro do mesmo arquivo, altere o texto de **"tubarão"** (na linha 26, parâmetro do comando _setLocation()_) para qualquer outra cidade que deseje explorar.
+1. Configure suas credenciais do banco de dados:
+    ◦ Abra o arquivo _application.properties_.
+    ◦ Preencha-o com o seu usuário e senha do banco de dados PostgreSQL onde você deseja salvar os dados.
+2. Defina o tipo de **comida** para o scraping:
+    ◦ No arquivo IfoodApplication.java, localize a linha 25.
+    ◦ Altere o texto "_hamburguer_" (que é um parâmetro do comando OpenIfoodPage()) para qualquer outro tipo de comida que deseje explorar (por exemplo, "pizza", "sushi", "massas").
+3. Defina a **localização** (cidade) para o scraping:
+    ◦ No mesmo arquivo IfoodApplication.java, localize a linha 26.
+    ◦ Altere o texto "_tubarão_" (que é um parâmetro do comando setLocation()) para o nome da cidade que você deseja explorar.
 
 ### Problemas comuns: 
 
